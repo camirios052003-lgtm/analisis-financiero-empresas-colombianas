@@ -7,11 +7,23 @@ def validate_data(df):
     print("VALIDACIÓN DE DATOS")
     print("=" * 60)
 
-    print(f"Registros: {len(df)}")
-    print(f"Columnas: {len(df.columns)}")
+    # Dimensiones
+    print(f"Registros: {df.shape[0]}")
+    print(f"Columnas: {df.shape[1]}")
 
-    print("\nValores nulos:")
+    # Valores nulos
+    print("\nValores nulos por columna:")
     print(df.isnull().sum())
 
-    print("\nDuplicados:")
+    # Registros duplicados
+    print("\nRegistros duplicados:")
     print(df.duplicated().sum())
+
+    # NIT duplicados
+    if "NIT" in df.columns:
+        print("\nNIT duplicados:")
+        print(df["NIT"].duplicated().sum())
+
+    # Tipos de datos
+    print("\nTipos de datos:")
+    print(df.dtypes)
