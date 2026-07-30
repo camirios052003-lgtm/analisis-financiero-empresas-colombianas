@@ -56,3 +56,5 @@ def transform_data(df):
     df = clean_text_columns(df)
 
     return df
+
+from src.catalogs import DEPARTAMENTOS, CIUDADES
