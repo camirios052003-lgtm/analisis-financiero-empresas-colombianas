@@ -1,3 +1,9 @@
+def normalize_catalogs(df):
+
+    print(">>> Ejecutando normalize_catalogs()")
+    print(df.columns.tolist())
+
+
 DEPARTAMENTOS = {
     "AMAZONAS CO": "AMAZONAS",
     "NORTE DE SANTANDER CO": "NORTE DE SANTANDER",
@@ -9,4 +15,14 @@ CIUDADES = {
     "BOGOTA": "BOGOTA D.C.",
     "BOGOTÁ": "BOGOTA D.C.",
     "BOGOTÁ D.C.": "BOGOTA D.C.",
+    "BARRANQUILLA-ATLANTICO": "BARRANQUILLA",
+    "MEDELLIN-ANTIOQUIA": "MEDELLIN",
+    "SABANA-DE-TORRES-SANTANDER": "SABANA-DE-TORRES",
+    "YACUANQUER-NARINO": "YACUANQUER",
+    "ANOLAIMA-CUNDINAMARCA": "ANOLAIMA",                   
+    "GUAMO-TOLIMA": "GUAMO",
+    "SIMIJACA-CUNDINAMARCA": "SIMIJACA",         
+    "63001 - ARMENIA-QUINDIO": "ARMENIA",
+    "BUESACO-NARINO": "BUESACO",
+    "PLANETA-RICA-CORDOBA": "PLANETA-RICA"
 }
