@@ -42,7 +42,8 @@ El proyecto abarca todo el ciclo de vida de los datos:
 
 # 🏗 Arquitectura del proyecto
 
-![alt text](image.png)
+
+![Arquitectura del proyecto](images/image.png)
 ---
 
 # 📂 Estructura del proyecto
