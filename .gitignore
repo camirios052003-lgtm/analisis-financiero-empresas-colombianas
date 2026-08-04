@@ -1,0 +1,25 @@
+
+# PYTHON
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# ARCHIVOS TEMPORALES
+
+*.tmp
+*.temp
+
+# CREDENCIALES
+
+.env
+.env.*
+config.py
+secrets.py
+credentials.json
