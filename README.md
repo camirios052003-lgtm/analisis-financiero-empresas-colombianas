@@ -171,7 +171,7 @@ El dashboard está compuesto por cinco páginas:
 
 Dashboard Ejecutivo
 
-![alt text](image.png)
+![Dashboard Ejecutivo](reports/Figures/Ejecutivo.png)
 
 ---
 
@@ -179,15 +179,14 @@ Dashboard Ejecutivo
 
 Análisis Geográfico
 
-![alt text](image-1.png)
-
+![Análisis Geográfico](reports/Figures/Geografico.png)
 ---
 
 ### Página 3
 
 Análisis de Rentabilidad
 
-![alt text](image.png)
+![Análisis de Rentabilidad](reports/Figures/Rentabilidad.png)
 
 ---
 
@@ -195,7 +194,7 @@ Análisis de Rentabilidad
 
 Análisis Financiero
 
-![alt text](image-1.png)
+![Análisis Financiero](reports/Figures/Financiero.png)
 
 ---
 
@@ -203,7 +202,7 @@ Análisis Financiero
 
 Análisis Detallado de Empresas
 
-![alt text](image.png)
+![Análisis Detallado de Empresas](reports/Figures/Empresas.png)
 
 ---
 
