@@ -99,7 +99,6 @@ El proyecto comprenderá las siguientes etapas:
 Durante el proyecto se calcularán indicadores financieros como:
 
 - Crecimiento de ingresos (%)
-- Crecimiento de utilidades (%)
 - Margen neto
 - ROA (Retorno sobre Activos)
 - ROE (Retorno sobre Patrimonio)
